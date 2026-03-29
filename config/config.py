@@ -32,7 +32,7 @@ DURATION_LIMIT_MIN = int(
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    True,
+    false,
 )
 
 # Fill True if you want to load extra plugins
@@ -43,7 +43,7 @@ EXTRA_PLUGINS_REPO = getenv(
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
-EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "None")
+EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "false" )
 
 LOGGERS = "\x40\x6d\x75\x73\x69\x63\x6d\x79\x61\x6e\x6d\x61\x72\x5f\x68\x65\x6c\x70\x62\x6f\x74"  # connect errors api key "Dont change it"
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot

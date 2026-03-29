@@ -27,7 +27,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_3"], url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text=_["S_B_4"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_"Music Group", url="https://t.me/+rQWL_3kN_ZQ5NTE1"),
         ],
         [
             InlineKeyboardButton(

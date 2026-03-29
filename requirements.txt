@@ -29,5 +29,8 @@ speedtest-cli
 spotipy
 tgcrypto
 urllib3
-git+https://github.com/phynicsmusic/pyrogram@master
+yt-dlp
+youtube-search-python
+youtube-search
+
 
